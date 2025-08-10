@@ -1,0 +1,14 @@
+$TTL 1D
+@       IN SOA  ns1.dexter.local. 100.168.192.rev.dexter.local.zone. (
+                                        2025062601      ; serial
+                                        1D              ; refresh
+                                        1H              ; retry
+                                        1W              ; expire
+                                        3H )            ; minimum
+
+@       IN      NS      ns1.dexter.local.
+ns1     IN      A       192.168.100.50
+123     IN      PTR     mail.dexter.local.
+122     IN      PTR     db.dexter.local.
+121     IN      PTR     web.dexter.local.
+120     IN      PTR     nagios.dexter.local.
