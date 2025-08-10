@@ -1,0 +1,51 @@
+# Configuring Network Interface using `nmtui` on Rocky Linux
+
+`nmtui` (NetworkManager Text User Interface) is a simple,  
+menu-driven tool for configuring network settings.
+
+---
+
+## Steps to Configure a Static IP (for DNS/DHCP Server)
+
+1. **Launch `nmtui`**
+   ```bash
+   nmtui
+   ```
+
+2. **Select** `Edit a connection` and press **Enter**.
+
+3. **Highlight** your network interface (e.g., `ens33`) and choose **Edit**.
+
+4. **Set IPv4 Configuration:**
+   - Change **IPv4 CONFIGURATION** from `Automatic (DHCP)` to `Manual`.
+   - Add your static IP details:
+     ```
+     Address: 192.168.100.50/24
+     Gateway: 192.168.100.1
+     DNS: 192.168.100.50, 8.8.8.8
+     ```
+
+5. **Ensure** `Automatically connect` is checked.
+
+6. Press **OK** to save changes.
+
+7. Back in the main menu, select **Activate a connection**.
+   - **Deactivate** and then **Activate** your connection to apply changes.
+
+8. **Exit** `nmtui`.
+
+---
+
+## Verify Configuration
+```bash
+ip addr show
+nmcli dev show
+ping -c 4 192.168.100.1     # Gateway
+ping -c 4 google.com        # External DNS check
+```
+
+---
+
+**Notes:**
+- Use `nmtui` for quick, user-friendly configuration without manually editing files.
+- For DNS & DHCP servers, a static IP is crucial to maintain consistent addressing.
