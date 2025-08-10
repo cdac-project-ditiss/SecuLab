@@ -4,12 +4,12 @@ Implemented a basic enterprise-style network infrastructure using VMware, consis
 
 Group Members
 
-| Name            | Batch | Roll Number | PRN Number   | Phone Number | Email                      |
-| --------------- | ----- | ----------- | ------------ | ------------ | -------------------------- |
-| Chinmay Patil   | C2    | 89533       | 250244223012 | 8459100845   | chinmaypatilblog@gmail.com |
-| Manu Sharma     | C2    | 89844       | 250244223028 | 8826375952   | msharma20103@gmail.com     |
-| Vaishnavi Mehar | C2    | 89451       | 250244223054 | 8698581486   | meharvaishnavi6@gmail.com  |
-| Aparna Korade   | C2    | 89688       | 250244223023 | 9834588768   | aparnakorade.ajk@gmail.com |
+|      Name       | Batch | Roll Number | Phone Number |           Email            |
+| --------------- | ----- | ----------- | ------------ | -------------------------- |
+| Chinmay Patil   |  C2   |    89533    | 8459100845   | chinmaypatilblog@gmail.com |
+| Manu Sharma     |  C2   |    89844    | 8826375952   | msharma20103@gmail.com     |
+| Vaishnavi Mehar |  C2   |    89451    | 8698581486   | meharvaishnavi6@gmail.com  |
+| Aparna Korade   |  C2   |    89688    | 9834588768   | aparnakorade.ajk@gmail.com |
 
 
 ### **Sequence for Project Setup**
