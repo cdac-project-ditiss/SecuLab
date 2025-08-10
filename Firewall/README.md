@@ -13,3 +13,7 @@ Fortinet FortiGate virtual firewall used to secure WAN-LAN traffic, manage DMZ, 
 4. Enable application layer inspection (e.g., block SSH on WAN)
 5. Configure port forwarding for web server
 6. Test DMZ accessibility from WAN
+
+## NOTE
+This is a free version of FortiGate NGFW for virtual machine. This only works with 1 vCPU and 2 GB memory. 
+You need to register yourself to FortiCloud by creating an account and then login using same account in Virtual Machine to register it. One Machine per account. 
