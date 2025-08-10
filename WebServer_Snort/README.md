@@ -66,7 +66,7 @@ sudo snort -A console -q -c /etc/snort/snort.conf -i <interface>
 - `hosts` → `/etc/hosts`
 - `interfaces` → `/etc/network/interfaces`
 - `apache2.conf` → `/etc/apache2/apache2.conf`
-- `000-default.conf` → `/etc/apache2/sites-available/000-default.conf`
+- `default-ssl.conf` → `/etc/apache2/sites-available/default-ssl.conf`
 - `snort.conf` → `/etc/snort/snort.conf`
 - `local.rules` → `/etc/snort/rules/local.rules`
 
