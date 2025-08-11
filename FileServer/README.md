@@ -1,4 +1,4 @@
-# 📂 File Server (Samba)
+# File Server (Samba)
 
 ## Overview
 The File Server is configured using *Samba* to allow seamless file sharing between Linux and Windows clients within the internal LAN. This enables centralized storage and controlled access to shared resources, ensuring secure and organized data management across the network.
